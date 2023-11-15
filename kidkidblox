@@ -2928,7 +2928,7 @@ end
     end)
     
     --------------------------------------------------------------------
-    local Library = Update:Window("Silver ");
+    local Library = Update:Window("Kinz ");
     --------------------------------------------------------------------
     local Main = Library:Tab("Main","rbxassetid://6026568198")
 local Setting = Library:Tab("Settings","rbxassetid://6034509993")
