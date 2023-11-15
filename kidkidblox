@@ -535,7 +535,7 @@ local Hub1 = Instance.new("TextLabel")
 	BindButton.Position = UDim2.new(0.865561002, 0, 0, 0)
 	BindButton.Size = UDim2.new(0, 100, 0, 27)
 	BindButton.Font = Enum.Font.Code
-	BindButton.Text = "[FREE]"
+	BindButton.Text = "[Buyer]"
 	BindButton.TextColor3 = Color3.fromRGB(51,255,255)
 	BindButton.TextSize = 14.000
 	BindButton.Visible = true
@@ -2941,23 +2941,6 @@ local Stats = Library:Tab("Stats","rbxassetid://7040410130")
     local Shop = Library:Tab("Shop","rbxassetid://6031265976")
     local Misc = Library:Tab("Misc","rbxassetid://6034509993")
     --------------------------------------------------------------------
-Setting:Seperator("「 Credits 」")
-    Setting:Label("Made By Hiro-016#2304")
-    Setting:Label("Ui Remade By Toshi.")
-     
-     Setting:Label("Join My discord For More Info!")
-     
-     Setting:Line()
-     
-      Setting:Button("Copy Discord Link",function()
-       Update:Notification("Discord Link Copied")
-setclipboard("https://discord.gg/2HTyJe4XTN")
-      end)
-   
-    Setting:Button("Copy Youtube Link",function()
-     Update:Notification("Youtube Link Copied")
-     setclipboard("https://youtube.com/channel/UCwDlHLzKeqDDHTx3yDmVuyg")
-    end)
     
     Setting:Seperator("「 Setting 」")
     
@@ -3419,7 +3402,7 @@ end)
         end
     end)
     
-Update:Notification("Hello, "  ..game.Players.LocalPlayer.DisplayName.. " Welcome To Silver Hub Beta! What's new? | [+] New Color Ui [+] Improve all [+] Fix Some Bugs [+] Added New Function [+] Much More... ")
+Update:Notification("Hello, "  ..game.Players.LocalPlayer.DisplayName.. " Welcome To Kinz Hub Beta! What's new? | [+] New Color Ui [+] Improve all [+] Fix Some Bugs [+] Added New Function [+] Much More... ")
     
     Main:Seperator("「 Main")
    
